@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  width: calc(100vw - 7em); /* makes margin without using margin*/
+}
+
+.section2 {
+  background-color: lightblue;
+  width: 100vw;
+  margin: 0 calc(-50vw + 50%); /* makes the element stretch to the width of the window */
+  padding: 3em;
+}
+
+h2 {
+  font-size: calc(3vw + 1rem); /* makes the text responsive */
+}
